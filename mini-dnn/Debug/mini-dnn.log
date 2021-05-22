@@ -1,0 +1,4 @@
+﻿  demo.cpp
+c:\users\lkq82\source\repos\mini-dnn\mini-dnn\network.h(19): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\lkq82\source\repos\mini-dnn\mini-dnn\demo.cpp(65): warning C4305: “参数”: 从“double”到“float”截断
+  mini-dnn.vcxproj -> C:\Users\lkq82\source\repos\mini-dnn\Debug\mini-dnn.exe

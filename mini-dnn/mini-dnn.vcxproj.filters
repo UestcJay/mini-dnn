@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mnist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sgd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mse_loss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cross_entropy_loss.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ave_pooling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="conv.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fully_connected.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="max_pooling.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="relu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sigmoid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="softmax.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="layer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="optimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="loss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mnist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sgd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mse_loss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cross_entropy_loss.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ave_pooling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="conv.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fully_connected.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="max_pooling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="relu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sigmoid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="softmax.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
